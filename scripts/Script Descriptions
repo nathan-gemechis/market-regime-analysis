@@ -1,0 +1,9 @@
+The analysis is organized into five main scripts, which are sequentially sourced by `master_pipeline.R`:
+
+1. 01_load_clean.R – Load raw market and VIX data, perform preprocessing.
+2. 02_feature_engineering.R – Compute returns, rolling statistics, drawdowns, and construct the feature matrix.
+3. 03_regime_modeling.R – Identify latent market regimes using Gaussian Mixture Models, confidence filtering, and temporal smoothing.
+4. 04_regime_analysis.R – Validate regime behavior with risk/return statistics, regime durations, and strategy simulation.
+5. 05_out_of_sample_validation.R – Conduct out-of-sample testing, compare train/test regimes, and compute transition probabilities.
+
+Running master_pipeline.R executes the full analysis end-to-end.
