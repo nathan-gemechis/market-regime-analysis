@@ -17,15 +17,14 @@ This project provides a modular, reproducible pipeline to identify, validate, an
 
 ## Repository Structure
 - Data
+- Outputs
 - Scripts
 - 01_load_clean.R
 - 02_feature_engineering.R
 - 03_regime_modeling.R
 - 04_regime_analysis.R
 - 05_out_of_sample_validation.R
-- master_pipeline.R # Top-level script to run full analysis
-/outputs # Generated CSVs, plots, and Tableau-ready data
-README.md # Project overview and documentation
+- master_pipeline.R
 
 
 ## Execution Pipeline
