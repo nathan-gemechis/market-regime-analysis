@@ -1,5 +1,5 @@
 Outputs
-- Several datasets inluding variables (as .csv)
+- Several datasets (as .csv), which include the following variables:
     DATE
     log_return
     vol_20
