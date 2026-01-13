@@ -1,0 +1,18 @@
+## Outputs
+- Several datasets inluding variables
+- DATE
+- log_return
+- vol_20
+- mean_ret_20
+- drawdown
+- VIX_level
+- regime
+- econ_regime
+- regime_id
+- cum_return
+- strategy_log_return
+- strategy_cum_return
+
+Tableau Dashboard Screenshot
+* Link to official tableau dashboard:
+https://public.tableau.com/app/profile/nathan.gemechis/viz/MarketRegimeDashboard/Dashboard1?publish=yes
