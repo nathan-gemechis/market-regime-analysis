@@ -56,3 +56,8 @@ The R scripts use the following packages:
 # Install required packages
 install.packages(c("dplyr", "tidyr", "zoo", "mclust", "data.table", "moments"))
 ```
+
+## How to Run
+- Place all scripts, market_data.xlsx, and vix_history.csv in the same directory
+- Open R and source master_pipeline.R
+- This runs the full pipeline and produces outputs
