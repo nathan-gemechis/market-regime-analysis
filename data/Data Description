@@ -1,0 +1,7 @@
+market_data.xlsx
+- Contains daily S&P 500 stock market data from January 5, 2021, to January 2, 2026.
+- Includes standard OHLC (Open, High, Low, Close), Adjusted Close, and Volume columns.
+
+vix_history.csv
+- Contains daily VIX (Volatility Index) data from January 2, 1990, to January 2, 2026.
+- Includes OHLC (Open, High, Low, Close) columns.
