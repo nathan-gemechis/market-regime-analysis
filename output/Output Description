@@ -1,5 +1,6 @@
-Outputs
-- Several datasets (as .csv), which include the following variables:
+OUTPUTS
+
+regime_analysis_tableau.csv – Main dataset for Tableau, containing:
     DATE
     log_return
     vol_20
@@ -12,8 +13,11 @@ Outputs
     cum_return
     strategy_log_return
     strategy_cum_return
-    next_regime
+    next_regime.
 
-- Tableau Dashboard Screenshot
-* Link to official tableau dashboard:
-https://public.tableau.com/app/profile/nathan.gemechis/viz/MarketRegimeDashboard/Dashboard1?publish=yes
+Tableau Dashboard Screenshot – Visual summary of market regimes.
+
+    * Official Tableau dashboard link: 
+    https://public.tableau.com/app/profile/nathan.gemechis/viz/MarketRegimeDashboard/Dashboard1?publish=yes
+
+Additional datasets – Other outputs generated in the pipeline can be created by uncommenting the write.csv lines at the end of 02_feature_engineering.R and 03_regime_modeling.R and re-running the scripts.
